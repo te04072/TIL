@@ -21,6 +21,10 @@ github에서 pull
 
 github remote repository에 작업 소스 추가
 
+>git remote rm origin
+
+와 같이 원격 저장소 삭제 가능
+
 ## git remote set-url origin --push --add <url>
 이와 같이 설정하면 origin이라는 이름 하에 여러 repository에 동시에 push 가능
 
