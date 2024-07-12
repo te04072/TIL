@@ -1,4 +1,4 @@
-# git 사용 2일차
+# How to use git
 
 ## git log --oneline
 로그를 한 줄로 간편하게 볼 때 사용
