@@ -25,13 +25,13 @@ github remote repository에 작업 소스 추가
 이와 같이 설정하면 origin이라는 이름 하에 여러 repository에 동시에 push 가능
 
 ## gitignore
-*touch .gitignore*로 파일 생성
+**touch .gitignore**로 파일 생성
 여기에 추가한 파일이나 디렉토리는 commit 대상이 되지 않는다.
 gitignore.io에서 손쉽게 생성 가능
 단 한번이라도 **git 관리대상이 된 적이 있다면 적용되지 않으니 gitignore은 작업 전에 미리 생성**해야 한다.
 
 ## gitkeep
-디렉토리 내 파일들이 사라지더라도 디렉토리를 지키는 더미 파일  
+**touch .gitkeep**을 통해 디렉토리 내 파일들이 사라지더라도 디렉토리를 지키는 더미 파일 생성  
 gitignore과 더불어 빈 디렉토리 commit 시 사용 가능
 
 ### 여담
