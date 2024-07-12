@@ -30,6 +30,10 @@ github remote repository에 작업 소스 추가
 gitignore.io에서 손쉽게 생성 가능
 단 한번이라도 **git 관리대상이 된 적이 있다면 적용되지 않으니 gitignore은 작업 전에 미리 생성**해야 한다.
 
+##gitkeep
+디렉토리 내 파일들이 사라지더라도 디렉토리를 지키는 더미 파일  
+gitignore과 더불어 빈 디렉토리 commit 시 사용 가능
+
 ### 여담
 >error: src refspec master does not match any  
 error: failed to push some refs to 'https://github.com/te04072/TIL.git'
