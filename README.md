@@ -13,5 +13,5 @@ TBD
 
 
 
-## 참고
+## Reference
 https://github.com/gyoogle/tech-interview-for-developer.git
