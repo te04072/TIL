@@ -9,3 +9,8 @@ Since 20240711
 
 
 TBD
+
+
+
+## 참고
+https://github.com/gyoogle/tech-interview-for-developer.git
