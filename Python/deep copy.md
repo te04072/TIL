@@ -2,11 +2,11 @@
 
 ## 1. 모듈 사용
 >import copy  
->backup_catalog = copy.deepcopy(catalog)  
+>nestedList = copy.deepcopy(List)  
 
 
 ## 2. for문 사용
->backup_catalog = [item[:] for item in catalog]  
+>nestedList = [item[:] for item in List]  
 
 
 ## 3. map 함수 사용
