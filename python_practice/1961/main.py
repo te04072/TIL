@@ -1,3 +1,5 @@
+# n x n matrix를 입력받고 90도, 180도, 270도 회전을 시켜 나란히 출력한다.
+
 import sys
 sys.stdin = open("input.txt", "r")
 
@@ -6,9 +8,9 @@ for test_case in range(1, T + 1):
     size = int(input())
     output1, output2, output3 = [], [], []
 
-    matrix = [list(map(int, input().split())) for __ in range(size)]
+    matrix = [list(map(int, input().split())) for __ in range(size)]        # input으로 size개의 행으로 이루어진 matrix 입력
 
-    for j1 in range(size):
+    for j1 in range(size):                                                   # list new_row1에 for loop을 통해 새로운 행 요소들을 append하고 이러한 new_row를 output1 list에 append한다.
         new_row1 = []
         for i1 in range(size):
             new_row1.append(matrix[size-i1-1][j1])
