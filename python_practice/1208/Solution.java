@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;  // 미완
 import java.util.Arrays;
 
 class Solution{
