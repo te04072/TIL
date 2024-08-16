@@ -17,6 +17,7 @@ import java.util.Scanner;
                     station_list[charge_list[i]] = 1;
                     }
                 while (cur < N-K){
+                    
                     for (int j = 3; j >= 1; j--) {
                         if (station_list[cur+j] == 1){
                             cur += j;

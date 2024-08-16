@@ -81,26 +81,6 @@
 # for test_case in range(1, T+1):
 #     string = input()
 #     size = len(string)
-#     no_dpl = []
-#     temp = None
-#     for i in range(size):
-#         print(temp, string[i])
-#         if no_dpl and no_dpl[-1] == string[i]:    # 스택 내부 글자 = 이번 글자
-#             no_dpl.pop()
-#         if temp == string[i]:           # 직전 글자 = 이번 글자
-#             continue
-#         if len(no_dpl) > 1 and no_dpl[-1] == no_dpl[-2]:     # pop했더니 겹치는 경우(겹친다면 한 글자만)
-#
-#         elif len(no_dpl) == 0 or no_dpl[-1] != string[i]:  # append는 첫 요소거나 top이 중복이 아닐 때
-#             no_dpl.append(string[i])
-#         temp = string[i]
-#         print(no_dpl)
-
-
-# T = int(input())
-# for test_case in range(1, T+1):
-#     string = input()
-#     size = len(string)
 #     # ['(', ')', '{', '}']
 #     bracket_dict = {'(': 0,  ')': 1,  '{': 2,  '}': 3}
 #     bracket_stack = []
@@ -138,8 +118,39 @@
 #     print(f"#{test_case} {ans}")
 
 
+# T = int(input())
+# for test_case in range(1, T+1):
+#     string = input()
+#     size = len(string)
+#     no_dpl = []
+#     temp = None
+#     for i in range(size):
+#         cur = string[i]
+#         if no_dpl:
+#             top = no_dpl[-1]
+#             if top == cur:          # top과 이번 입력이 일치 : pop
+#                 no_dpl.pop()
+#             else:
+#                 no_dpl.append(cur)
+#         else:                               # 스택이 비어있으면 append
+#             no_dpl.append(string[i])
+#         temp = string[i]
+#     output = len(no_dpl)
+#     print(f"#{test_case} {output}")
 
 
+for test_case in range(1, 11):
+    N, n_string = map(str, input().split())
+    num_stack = []
+    for i in range(int(N)):
+        cur = n_string[i]
+        if not num_stack or cur != num_stack[-1]:
+            num_stack.append(cur)
+        elif cur == num_stack[-1]:
+            num_stack.pop()
+    output = ''.join(num_stack)
+    print(f"#{test_case}", end=' ')
+    print(output)
 
 
 
