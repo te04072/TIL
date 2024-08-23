@@ -1,0 +1,485 @@
+<!-- <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  로그인
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">로그인</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="email-input" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email-input" placeholder="name@example.com">
+        <label for="inputPassword5" class="form-label">Password</label>
+        <input typ  e="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+        <div id="passwordHelpBlock" class="form-text">
+            비밀번호 구성은 8자리 이상, 영문 대소문자, 숫자, 특수문자를 사용하세요.
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">취소</button>
+        <button type="button" class="btn btn-primary">로그인</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html> -->
+
+
+
+<!-- <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-primary" type="btn text-white" style="background-color : green">Button</button>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mx-auto" style="margin:10px; width:40%">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProject" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              프로젝트
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownProject">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownGroups" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              그룹들
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownGroups">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">활동</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">마일스톤</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">스니펫</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination" style="justify-content: center;">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">4</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <style>
+    body {
+    padding: 0;
+    margin: 70px 0;
+  }
+    
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #f1f1f1;
+    }
+
+    .nav {
+      display: flex;
+      background-color: #f1f1f1;
+      align-items: center;
+      height: 70px;
+      justify-content: space-between;
+      padding: 0px 30px;
+    }
+
+    .nav-link {
+      margin: 0;
+      width: 100px;
+      height: 70px;
+      text-align: center;
+      line-height: 70px;
+      list-style: none;
+      font-size: 20px;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .nav-item--home nav-link {
+      background-color: orangered;
+    }
+
+    .hero {
+      text-align: center;
+    }
+
+    .hero-title {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    .intro-title {
+      margin: 0px;
+      font-size: 36px;
+      font-weight: bold;
+      color: #121212;
+    }
+
+    .intro-box {
+      text-align: center;
+      background-color: rgb(255, 196, 0);
+      padding: 20px;
+    }
+
+    .intro-description {
+      color: #454545
+    }
+
+    .article {
+      margin: 40px;
+    }
+
+    .card {
+      background-color: #f8f8f8;
+      padding: 20px;
+      box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, .2);
+      border-radius: 5px;
+      margin: 30px 0px;
+    }
+    
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      /* padding: 0px 30px; */
+    }
+
+    .card-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .card-author { 
+      font-size: 18px;
+      font-weight: bold;
+      color: #454545;
+    }
+
+    .card-content {
+      padding: 15px;
+      background-color: rgba(255, 213, 127, .3);
+    }
+    
+    /* .card-divider {
+
+    } */
+
+    ul {
+      list-style: none;
+      font-size: 20px;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin: 10px 20px;
+    }
+
+
+    .main {
+      color: white
+    }
+
+    .footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 20px;
+      margin: 0;
+      background-color: olivedrab;
+      color: white;
+    }
+
+  </style>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <li class="nav-item nav-item--home"><a class="nav-link" href="">HOME</a></li>
+      <li class="nav-item"><a class="nav-link" href="">Category</a></li>
+      <li><a class="nav-link" href="">BestSeller</a></li>
+      <li><a class="nav-link" href="">Recommend</a></li>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <section class="hero">
+      <p class="hero-title">HGD Magazine</p>
+    </section>
+  
+    <section class="intro">
+      <div class="intro-box">
+        <p class="intro-title">Article List</p>
+        <p class="intro-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui quos optio voluptatem! Nihil saepe molestiae aperiam dolorem in? Autem doloremque consectetur veritatis in beatae rerum aspernatur. Magni, tempore numquam!</p>
+      </div>
+    </section>
+
+    <section class="articles">
+      <article class="card">
+        <div class="card-header">
+          <p class="card-title">Article Title</p>
+          <p class="card-author">By HGD</p>
+        </div>
+        <hr class="card-divider">
+        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel vitae accusantium blanditiis ullam quisquam voluptas. Aliquid, sapiente, suscipit, exercitationem sed dolore culpa doloremque nobis dignissimos accusamus a deserunt praesentium autem?</p>
+      </article>
+      <article class="card">
+        <div class="card-header">
+          <p class="card-title">Article Title</p>
+          <p class="card-author">By HGD</p>
+        </div>
+        <hr class="card-divider">
+        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel vitae accusantium blanditiis ullam quisquam voluptas. Aliquid, sapiente, suscipit, exercitationem sed dolore culpa doloremque nobis dignissimos accusamus a deserunt praesentium autem?</p>
+      </article>
+      <article class="card">
+        <div class="card-header">
+          <p class="card-title">Article Title</p>
+          <p class="card-author">By HGD</p>
+        </div>
+        <hr class="card-divider">
+        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel vitae accusantium blanditiis ullam quisquam voluptas. Aliquid, sapiente, suscipit, exercitationem sed dolore culpa doloremque nobis dignissimos accusamus a deserunt praesentium autem?</p>
+      </article>
+      <article class="card">
+        <div class="card-header">
+          <p class="card-title">Article Title</p>
+          <p class="card-author">By HGD</p>
+        </div>
+        <hr class="card-divider">
+        <p class="card-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel vitae accusantium blanditiis ullam quisquam voluptas. Aliquid, sapiente, suscipit, exercitationem sed dolore culpa doloremque nobis dignissimos accusamus a deserunt praesentium autem?</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer-text">&copy; 2023 HGD Magazine. All rights reserved.</p>
+  </footer>
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <style>
+    body {
+      width: 500px;
+      text-align: center;
+    }
+
+    .alert-danger {
+      background-color: red;
+      color: white;
+      padding: 20px;
+      text-align: left;
+    }
+
+    h1 {
+      margin: 0 0 16px 0;
+    }
+    .card {
+      padding-top: 10px
+    }
+    .card-title {
+      text-align: center;
+    }
+    .card-body {
+      text-align: left;
+    }
+    hr {
+      background-color: blue;
+      height: 3px;
+      opacity: 0.8;
+      margin: 0;
+    }
+    .form-check {
+      display: flex;
+      text-align: justify;
+    }
+    .form-check-label {
+      margin: 0 0 0 10px;
+    }
+    .form-check a {
+      margin: 0 0 0 160px;
+    }
+  </style>
+</head>
+<body>
+  <div class="alert alert-danger" role="alert";>
+    Invalid Login or password
+  </div>
+  <h1><b>SSAFY 전용 Gitlab 시스템</b></h1>
+  <div class="card">
+    <div class="card-title">
+      <h2><b>Sign in</b></h2>
+    </div>
+    <hr>
+    <div class="card-body">
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Username or Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted"></small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+  </form>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+      Remember me
+    </label>
+    <a href="">Forgot your password?</a>
+  </div>
+  <div class="d-grid gap-2">
+    <button type="button" class="btn btn-success btn-lg btn-block">Sign in</button>
+  </div>
+</div>
+</div>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .outer-box {
+      
+      border: black 1px dotted ;
+      height: 200px;
+      width: 600px;
+    }
+
+    .inner-box {
+      border: red 1px solid;
+      height: 200px;
+      width: 300px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .box {
+      height: 100px;
+      width: 100px;
+      background-color: skyblue;
+    }
+  </style>
+</head>
+<body>
+  <div class="outer-box">
+    <div class="inner-box">
+      <div class="box">item1</div>
+      <div class="box">item2</div>
+    </div>
+  </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: skyblue;
+      border: 1px solid black;
+    }
+    .target {
+      margin: 16px;
+    }
+
+    @media (min-width: 760px){
+      .target {
+        margin: 24px;
+      }
+    }
+
+    @media (min-width: 1200px){
+      .target {
+        margin: 48px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="target">
+  <span>div</span>
+</div>
+</body>
+</html>
