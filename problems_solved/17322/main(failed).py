@@ -1,11 +1,15 @@
-def factorial(num):
+def factorial(num):                             # 시간 단축을 위한 메모이제이션
     if num == 1:
         return 1
-    else:
-        return factorial(num-1)*num
+    if num <= len(factorial_list):
+        return factorial_list[num-1]
+    fact = factorial(num-1)*num
+    factorial[num-1] = fact
+    return fact
 
 
 T = int(input())
+factorial_list = [1]
 for tc in range(1, T+1):
     X, Y = map(int, input().split())            # X = 2i + j, Y = i + 2j
     i2 = (2*X - Y)                              # 각각 3i, 3j에 해당
