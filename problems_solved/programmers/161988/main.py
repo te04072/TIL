@@ -1,3 +1,5 @@
+# Kadane's Algorithm
+
 def solution(sequence):
     l = len(sequence)
     seq1 = [sequence[i]*(-1)**(i%2) for i in range(l)]
